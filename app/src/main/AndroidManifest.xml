@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.runshaw.tutorials">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.UIActivity"></activity>
+        <activity
+            android:name=".activity.CreateNotesActivity"
+            android:label="Create Notes" />
+        <activity
+            android:name=".activity.TodoActivity"
+            android:label="@string/title_activity_todo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.FragementHostActivity" />
+        <activity android:name=".activity.FrameLayoutActivity" />
+        <activity android:name=".activity.CardViewActivity" />
+        <activity android:name=".activity.ConstraintLayoutExampleActivity" />
+        <activity android:name=".activity.RelativeLayoutExampleActivity" />
+        <activity android:name=".activity.LinearLayoutExampleActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
